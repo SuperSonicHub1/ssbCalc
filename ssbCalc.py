@@ -17,7 +17,7 @@ multi_list = ["*", "times", "multiplication"]
 div_list = ["/", "divided by", "division"]
 op_list = add_list + sub_list + multi_list + div_list
 
-operation = input("What operation? m")
+operation = input("What operation? ")
 if operation in op_list:
     pass
 else:
